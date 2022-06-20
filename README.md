@@ -9,7 +9,7 @@ Well, you're in luck. Check out this bad boi right here.
 ### This project uses:
  
 * Github's [delete repository event code](https://github.com/github/platform-samples/tree/master/hooks/ruby/delete-repository-event)
-* [Ruby]([url](https://www.ruby-lang.org/en/))
+* [Ruby](https://www.ruby-lang.org/en/)
 * [Octokit](https://github.com/octokit/octokit.rb)
 * [Sinatra](http://sinatrarb.com/)
 
@@ -27,3 +27,6 @@ Well, you're in luck. Check out this bad boi right here.
 8. Run server.rb
 9. Create a new repo in your organization
 10. [Throw a party for the whole office](https://www.youtube.com/watch?v=97rVX0u-pyc)!
+
+### Pssssssst -- this is a demo
+The branch protection set in this project isn't a, well... _best practice_. Consider updating the `client.protect_branch` call in the `post '/create-repository-event'` section to fit your needs. You could also switch up the `post '/notify-admin'` messaging to notify people who you actually know! 
