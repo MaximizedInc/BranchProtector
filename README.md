@@ -25,7 +25,7 @@ Well, you're in luck. Check out this bad boi right here.
 * GITHUB_HOST - the domain of the GitHub Enterprise instance. e.g. github.example.com.
 * GITHUB_API_TOKEN - a Personal Access Token that has the ability to create an issue in the notification repository.
 * GITHUB_NOTIFICATION_REPOSITORY - the repository in which to create the notification issue. e.g. github.example.com/administrative-notifications. Should be in the form of :owner/:repository.
-8. Run server.rb
+8. Run `server.rb` - `ruby server.rb`
 9. Create a new repo in your organization.
 10. [Throw a party for the whole office](https://www.youtube.com/watch?v=97rVX0u-pyc)!
 
